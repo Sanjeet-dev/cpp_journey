@@ -1,5 +1,4 @@
-#include<iostream>
-#include<vector>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main(){
@@ -7,6 +6,8 @@ int main(){
     for(int i=0; i<v.size(); i++){
         cin>>v[i];
     }
+
+
 
     // printing all elements
     for(int ele:v){
@@ -27,5 +28,7 @@ int main(){
     for(int ele:v){
         cout<<ele<<" ";
     }
+    // reversing the vector array
+    reverse(v.begin(),v.end());
     return 0;
 }
