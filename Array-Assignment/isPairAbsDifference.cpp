@@ -1,4 +1,4 @@
-// problem: print 'yes' if there exist sum of pair equal to x else print 'no'
+// problem: print 'yes' if there exist absolute difference of pair equal to x else print 'no'
 // i/p [-1,1,0,2,3] x=2
 // o/p yes
 
